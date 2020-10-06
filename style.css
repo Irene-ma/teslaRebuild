@@ -11,3 +11,20 @@ body{
   background-size: cover;
   background-attachment: fixed;
 }
+
+.ui.segment {
+  background-color: transparent; !important;
+  box-shadow: none;
+  border: none;
+  padding-top: 150px;
+}
+
+.circular.ui.button {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 350px;
+}
+
+a{
+  color: black; !important;
+}
