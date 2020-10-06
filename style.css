@@ -1,0 +1,13 @@
+.ui.borderless.top.attached.menu {
+  background-color: transparent; !important;
+  box-shadow: none;
+  border: none;
+}
+
+
+body{
+  width: 100%;
+  background-image: url("modelx.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
