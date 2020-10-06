@@ -12,17 +12,28 @@ body{
   background-attachment: fixed;
 }
 
-.ui.segment {
+.ui.segments {
+  background-color: transparent; !important;
+  box-shadow: none;
+  border: none;!important;
+  padding-top: 125px;
+}
+
+.ui.segment.ui.center.aligned {
   background-color: transparent; !important;
   box-shadow: none;
   border: none;
-  padding-top: 150px;
+  padding: 5px;
 }
 
+.circular.ui.primary.button {
+  background-color: black; !important;
+}
 .circular.ui.button {
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-top: 350px;
+  opacity: 50%; !important;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 450px;
 }
 
 a{
