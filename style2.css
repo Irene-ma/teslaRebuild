@@ -1,0 +1,55 @@
+body{
+  width: 100%;
+  background-image: url("interior.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.ui.borderless.top.attached.menu {
+  background-color: transparent; !important;
+  box-shadow: none;
+  border: none;
+}
+
+.footer {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 20px;
+  height: 230px;
+}
+
+h3 {
+  color: gray; !important;
+  margin-bottom: -10px; !important;
+  line-height: 0; !important;
+}
+
+
+.ui.right.fixed.vertical.text.inverted.menu{
+  padding-top: 100px;
+  margin-right: 20px;
+}
+
+
+.ui.right.fixed.vertical.text.inverted.menu h1{
+  color: white;
+}
+h2 {
+  margin-top: -10px;
+  color:white;
+}
+.ui.right.fixed.vertical.text.inverted.menu p {
+  color: white;
+}
+
+.inverted.secondary.circular.ui.button {
+  margin-left: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.column.text{
+  color: grey;
+}
